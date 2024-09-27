@@ -40,7 +40,7 @@ int main() {
     };
 
     vector<pair<int, int>> selectedPoints = {points[0], points[1], points[2]};
-    vector<pair<int, int>> selectedPoints2 = {points2[0], points2[1], points2[2],points2[3],points2[4],points2[5]};
+    vector<pair<int, long long>> selectedPoints2 = {points2[0], points2[1], points2[2],points2[3],points2[4],points2[5]};
     double result = lagrangeInterpolation(selectedPoints);
     double result2 = lagrangeInterpolation(selectedPoints2);
     cout << "The constant term c is: " << result << endl;
